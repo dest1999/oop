@@ -9,9 +9,15 @@ namespace Lesson2
 
     internal class Account
     {
+        private static int counter;
         private int number;
         private decimal balance;
         private AccountTypes accountType;
+
+        public Account()
+        {
+            number = ++counter;
+        }
 
         public int GetNumber()
         {
@@ -28,10 +34,6 @@ namespace Lesson2
             return accountType;
         }
 
-        public void SetNumber(int Number)
-        {
-            this.number = Number;
-        }
 
         public void SetBalance(decimal Balance)
         {

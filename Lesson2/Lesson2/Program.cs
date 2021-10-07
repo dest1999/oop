@@ -28,15 +28,23 @@ namespace Lesson2
     {
         static void Main(string[] args)
         {
-            Account account = new();
+            Account account1 = new();
+            Account account2 = new();
 
-            account.SetNumber(1);
-            account.SetBalance((decimal)1100.338);
-            account.SetAccountType(AccountTypes.Кредитный);
+            account1.SetBalance((decimal)1100.338);
+            account1.SetAccountType(AccountTypes.Кредитный);
 
-            Console.WriteLine($"Счёт номер\t{account.GetNumber()}");
-            Console.WriteLine($"Баланс\t\t{account.GetBalance()}");
-            Console.WriteLine($"Тип\t\t{account.GetAccountType()}");
+            account2.SetBalance((decimal)55);
+            account2.SetAccountType(AccountTypes.Дебетовый);
+
+            Console.WriteLine($"Счёт номер\t{account1.GetNumber()}");
+            Console.WriteLine($"Баланс\t\t{account1.GetBalance()}");
+            Console.WriteLine($"Тип\t\t{account1.GetAccountType()}");
+            Console.WriteLine();
+            Console.WriteLine($"Счёт номер\t{account2.GetNumber()}");
+            Console.WriteLine($"Баланс\t\t{account2.GetBalance()}");
+            Console.WriteLine($"Тип\t\t{account2.GetAccountType()}");
+
         }
     }
 }
