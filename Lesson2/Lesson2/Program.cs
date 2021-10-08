@@ -28,14 +28,10 @@ namespace Lesson2
     {
         static void Main(string[] args)
         {
-            Account account1 = new();
-            Account account2 = new();
+            Account account1 = new(55);
+            Account account2 = new(AccountTypes.Кредитный);
+            Account account3 = new(1000, AccountTypes.Привилегированный);
 
-            account1.SetBalance((decimal)1100.338);
-            account1.SetAccountType(AccountTypes.Кредитный);
-
-            account2.SetBalance((decimal)55);
-            account2.SetAccountType(AccountTypes.Дебетовый);
 
             Console.WriteLine($"Счёт номер\t{account1.GetNumber()}");
             Console.WriteLine($"Баланс\t\t{account1.GetBalance()}");
@@ -44,6 +40,10 @@ namespace Lesson2
             Console.WriteLine($"Счёт номер\t{account2.GetNumber()}");
             Console.WriteLine($"Баланс\t\t{account2.GetBalance()}");
             Console.WriteLine($"Тип\t\t{account2.GetAccountType()}");
+            Console.WriteLine();
+            Console.WriteLine($"Счёт номер\t{account3.GetNumber()}");
+            Console.WriteLine($"Баланс\t\t{account3.GetBalance()}");
+            Console.WriteLine($"Тип\t\t{account3.GetAccountType()}");
 
         }
     }

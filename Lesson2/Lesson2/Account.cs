@@ -5,8 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Lesson2
 {
-
-
     internal class Account
     {
         private static int counter;
@@ -14,7 +12,24 @@ namespace Lesson2
         private decimal balance;
         private AccountTypes accountType;
 
-        public Account()
+        public Account(decimal Balance) : this(Balance, AccountTypes.Дебетовый)
+        {
+            balance = Balance;
+        }
+
+        public Account(AccountTypes AccountType) : this(0, AccountType)
+        {
+            accountType = AccountType;
+        }
+
+        public Account(decimal Balance, AccountTypes AccountType)
+        {
+            balance = Balance;
+            accountType = AccountType;
+            SetAccountNumber();
+        }
+
+        void SetAccountNumber()
         {
             number = ++counter;
         }
@@ -35,14 +50,5 @@ namespace Lesson2
         }
 
 
-        public void SetBalance(decimal Balance)
-        {
-            this.balance = Balance;
-        }
-
-        public void SetAccountType(AccountTypes AccountType)
-        {
-            this.accountType = AccountType ;
-        }
     }
 }
