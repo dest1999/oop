@@ -33,16 +33,39 @@ namespace Lesson2
             return number;
         }
 
+        public bool PutToAccount(decimal amount)
+        {
+            if (amount > 0)
+            {
+                balance += amount;
+                return true;
+            }
+
+            return false;
+        }
+
+        public bool WithdrawFromAccount(decimal amount)
+        {
+            if (amount > 0 && balance >= amount)
+            {
+                balance -= amount;
+                return true;
+            }
+
+            return false;
+        }
+
+
         public decimal Balance 
         {  
             get 
             {  
                 return balance; 
             } 
-            set 
-            { 
-                balance = value; 
-            } 
+            //set 
+            //{ 
+            //    balance = value; 
+            //} 
         }
 
         public AccountTypes AccountType 

@@ -45,13 +45,26 @@ namespace Lesson2
             Console.WriteLine($"Баланс\t\t{account3.Balance}");
             Console.WriteLine($"Тип\t\t{account3.AccountType}");
             
-            Console.WriteLine("\nИзменяем баланс и тип счёта\n");
-            account1.Balance = 200;
-            account1.AccountType = AccountTypes.Кредитный;
+            Console.WriteLine("\nДобавляем 1000\n");
+            account1.PutToAccount(1000);
+            Console.WriteLine($"Баланс\t{account1.Balance}");
+            //снять отрицательную сумму -> добавить положительную и наоборот
+            Console.WriteLine("\nДобавляем\t-10000\n");
+            account1.PutToAccount(-10000);
+            Console.WriteLine($"Баланс\t{account1.Balance}");
 
-            Console.WriteLine($"Счёт номер\t{account1.GetNumber()}");
-            Console.WriteLine($"Баланс\t\t{account1.Balance }");
-            Console.WriteLine($"Тип\t\t{account1.AccountType }");
+            Console.WriteLine("\nСнимаем\t1000\n");
+            account1.WithdrawFromAccount(1000);
+            Console.WriteLine($"Баланс\t{account1.Balance}");
+
+            Console.WriteLine("\nСнимаем\t-1000\n");
+            account1.WithdrawFromAccount(-1000);
+            Console.WriteLine($"Баланс\t{account1.Balance}");
+
+            Console.WriteLine("\nСнимаем\t10000\n");
+            account1.WithdrawFromAccount(10000);
+            Console.WriteLine($"Баланс\t{account1.Balance}");
+
         }
     }
 }
