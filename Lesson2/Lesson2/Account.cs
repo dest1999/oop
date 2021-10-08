@@ -28,26 +28,40 @@ namespace Lesson2
             accountType = AccountType;
             SetAccountNumber();
         }
-
-        void SetAccountNumber()
-        {
-            number = ++counter;
-        }
-
         public int GetNumber()
         {
             return number;
         }
 
-        public decimal GetBalance()
-        {
-            return balance;
+        public decimal Balance 
+        {  
+            get 
+            {  
+                return balance; 
+            } 
+            set 
+            { 
+                balance = value; 
+            } 
         }
 
-        public AccountTypes GetAccountType()
-        {
-            return accountType;
+        public AccountTypes AccountType 
+        {  
+            get 
+            {  
+                return accountType; 
+            } 
+            set 
+            {
+                accountType = value;
+            }  
         }
+
+        private void SetAccountNumber()
+        {
+            number = ++counter;
+        }
+
 
 
     }

@@ -34,17 +34,24 @@ namespace Lesson2
 
 
             Console.WriteLine($"Счёт номер\t{account1.GetNumber()}");
-            Console.WriteLine($"Баланс\t\t{account1.GetBalance()}");
-            Console.WriteLine($"Тип\t\t{account1.GetAccountType()}");
+            Console.WriteLine($"Баланс\t\t{account1.Balance }");
+            Console.WriteLine($"Тип\t\t{account1.AccountType }");
             Console.WriteLine();
             Console.WriteLine($"Счёт номер\t{account2.GetNumber()}");
-            Console.WriteLine($"Баланс\t\t{account2.GetBalance()}");
-            Console.WriteLine($"Тип\t\t{account2.GetAccountType()}");
+            Console.WriteLine($"Баланс\t\t{account2.Balance}");
+            Console.WriteLine($"Тип\t\t{account2.AccountType}");
             Console.WriteLine();
             Console.WriteLine($"Счёт номер\t{account3.GetNumber()}");
-            Console.WriteLine($"Баланс\t\t{account3.GetBalance()}");
-            Console.WriteLine($"Тип\t\t{account3.GetAccountType()}");
+            Console.WriteLine($"Баланс\t\t{account3.Balance}");
+            Console.WriteLine($"Тип\t\t{account3.AccountType}");
+            
+            Console.WriteLine("\nИзменяем баланс и тип счёта\n");
+            account1.Balance = 200;
+            account1.AccountType = AccountTypes.Кредитный;
 
+            Console.WriteLine($"Счёт номер\t{account1.GetNumber()}");
+            Console.WriteLine($"Баланс\t\t{account1.Balance }");
+            Console.WriteLine($"Тип\t\t{account1.AccountType }");
         }
     }
 }
