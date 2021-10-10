@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace Lesson2
 {
-    enum AccountTypes
-    {
-        Credit,
-        Preference,
-        Regular
-    }
-
     internal class Account
     {
+        private static int counter;
+
         private int accountNumber;
         private decimal balance;
         private AccountTypes accountType;
@@ -24,9 +19,9 @@ namespace Lesson2
             return accountNumber;
         }
 
-        public void SetAccountNumber(int accountNumber)
+        public void SetAccountNumber()
         {
-            this.accountNumber = accountNumber;
+            this.accountNumber = ++counter;
         }
 
         public decimal GetBalance()
