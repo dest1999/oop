@@ -50,10 +50,10 @@ namespace Lesson2
             {  
                 return balance;
             } 
-            set 
-            {  
-                balance = value; 
-            }  
+            //set 
+            //{  
+            //    balance = value; 
+            //}  
         }
         public AccountTypes AccountType 
         {  
@@ -67,6 +67,25 @@ namespace Lesson2
             } 
         }
 
+        public bool DepositToAccount(decimal amount)
+        {
+            if (amount > 0)
+            {
+                balance += amount;
+                return true;
+            }
+            return false;
+        }
+
+        public bool WithdrawFromAccount(decimal amount)
+        {
+            if (amount > 0 && amount < balance)
+            {
+                balance -= amount;
+                return true;
+            }
+            return false;
+        }
 
         public string GetInfo()
         {

@@ -19,9 +19,15 @@ namespace Lesson2
 
             Console.WriteLine(account1.GetInfo());
 
-            account1.Balance = 100;
-            account1.AccountType = AccountTypes.Preference;
-
+            Console.WriteLine("Completed: " + account1.DepositToAccount(-100));
+            Console.WriteLine(account1.GetInfo());
+            Console.WriteLine("Completed: " + account1.DepositToAccount(100));
+            Console.WriteLine(account1.GetInfo());
+            Console.WriteLine("Completed: " + account1.WithdrawFromAccount(-1000));
+            Console.WriteLine(account1.GetInfo());
+            Console.WriteLine("Completed: " + account1.WithdrawFromAccount(1000));
+            Console.WriteLine(account1.GetInfo());
+            Console.WriteLine("Completed: " + account1.WithdrawFromAccount(10));
             Console.WriteLine(account1.GetInfo());
 
         }
