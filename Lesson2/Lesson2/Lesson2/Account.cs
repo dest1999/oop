@@ -36,21 +36,35 @@ namespace Lesson2
             SetAccountNumber();
         }
 
+        public int AccountNumber 
+        {  
+            get 
+            {  
+                return accountNumber; 
+            } 
 
-        public int GetAccountNumber()
-        {
-            return accountNumber;
         }
-
-        public decimal GetBalance()
-        {
-            return this.balance;
+        public decimal Balance 
+        {  
+            get 
+            {  
+                return balance;
+            } 
+            set 
+            {  
+                balance = value; 
+            }  
         }
-
-
-        public AccountTypes GetAccountType()
-        {
-            return accountType;
+        public AccountTypes AccountType 
+        {  
+            get 
+            {  
+                return accountType; 
+            } 
+            set 
+            {  
+                accountType = value; 
+            } 
         }
 
 
