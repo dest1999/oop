@@ -16,18 +16,12 @@ namespace Lesson2
         static void Main(string[] args)
         {
             var account1 = new Account();
-            var account2 = new Account();
-
-            account1.SetAccountNumber();
-            account1.SetBalance(100);
-            account1.SetAccountType(AccountTypes.Regular); 
-            
-            account2.SetAccountNumber();
-            account2.SetBalance(555);
-            account2.SetAccountType(AccountTypes.Preference);
+            var account2 = new Account(100);
+            var account3 = new Account(AccountTypes.Credit);
 
             Console.WriteLine(account1.GetInfo());
             Console.WriteLine(account2.GetInfo());
+            Console.WriteLine(account3.GetInfo());
         }
     }
 }
