@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\bin\Debug\net5.0\StringCoup.exe
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\bin\Debug\net5.0\StringCoup.deps.json
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\bin\Debug\net5.0\StringCoup.runtimeconfig.json
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\bin\Debug\net5.0\StringCoup.runtimeconfig.dev.json
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\bin\Debug\net5.0\StringCoup.dll
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\bin\Debug\net5.0\ref\StringCoup.dll
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\bin\Debug\net5.0\StringCoup.pdb
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\obj\Debug\net5.0\StringCoup.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\obj\Debug\net5.0\StringCoup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\obj\Debug\net5.0\StringCoup.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\obj\Debug\net5.0\StringCoup.AssemblyInfo.cs
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\obj\Debug\net5.0\StringCoup.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\obj\Debug\net5.0\StringCoup.dll
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\obj\Debug\net5.0\ref\StringCoup.dll
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\obj\Debug\net5.0\StringCoup.pdb
+C:\Users\user\source\repos\oop\Lesson3\StringCoup\obj\Debug\net5.0\StringCoup.genruntimeconfig.cache
