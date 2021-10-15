@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction", "Lesson3\Tran
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCoup", "StringCoup\StringCoup.csproj", "{DE9A4810-E8CA-4722-B25B-0E214633258D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailAddress", "MailAddress\MailAddress.csproj", "{50ECFC75-33C3-4FC5-B19E-9B0D3A8E4A81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DE9A4810-E8CA-4722-B25B-0E214633258D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE9A4810-E8CA-4722-B25B-0E214633258D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE9A4810-E8CA-4722-B25B-0E214633258D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50ECFC75-33C3-4FC5-B19E-9B0D3A8E4A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50ECFC75-33C3-4FC5-B19E-9B0D3A8E4A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50ECFC75-33C3-4FC5-B19E-9B0D3A8E4A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50ECFC75-33C3-4FC5-B19E-9B0D3A8E4A81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

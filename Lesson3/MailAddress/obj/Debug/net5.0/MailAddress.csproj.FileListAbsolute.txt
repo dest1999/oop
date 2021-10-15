@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\bin\Debug\net5.0\list.txt
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\bin\Debug\net5.0\MailAddress.exe
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\bin\Debug\net5.0\MailAddress.deps.json
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\bin\Debug\net5.0\MailAddress.runtimeconfig.json
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\bin\Debug\net5.0\MailAddress.runtimeconfig.dev.json
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\bin\Debug\net5.0\MailAddress.dll
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\bin\Debug\net5.0\ref\MailAddress.dll
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\bin\Debug\net5.0\MailAddress.pdb
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\obj\Debug\net5.0\MailAddress.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\obj\Debug\net5.0\MailAddress.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\obj\Debug\net5.0\MailAddress.AssemblyInfo.cs
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\obj\Debug\net5.0\MailAddress.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\obj\Debug\net5.0\MailAddress.dll
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\obj\Debug\net5.0\ref\MailAddress.dll
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\obj\Debug\net5.0\MailAddress.pdb
+C:\Users\user\source\repos\oop\Lesson3\MailAddress\obj\Debug\net5.0\MailAddress.genruntimeconfig.cache
