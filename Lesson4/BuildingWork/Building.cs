@@ -91,6 +91,22 @@ namespace BuildingWork
                 $"Building entrances: {entrancesQuantity}";
         }
 
+        //т.к. buildNumber уникален то считаю что его можно использовать как хэш
+        public override int GetHashCode()
+        {
+            return buildNumber;
+        }
+
+        public bool Equals(Building build)
+        {
+            if (buildNumber == build.buildNumber)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
         private void SetBuildNumber()
         {
             buildNumber = ++buildCounter;

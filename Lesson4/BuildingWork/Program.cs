@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace BuildingWork
 {
@@ -6,24 +7,24 @@ namespace BuildingWork
     {
         static void Main(string[] args)
         {
-            var build1 = new Building
-            {
-                EntrancesQuantity = 1,
-                FlatsQuantity = 1,
-                FloorsQuantity = 1,
-                Height = 10
-            };
+            Creator.CreateBuild(1, 1, 1, 1);
+            Creator.CreateBuild(2, 2, 2, 2);
+            Creator.CreateBuild(3, 3, 3, 3);
+            Creator.CreateBuild();
 
-            var build2 = new Building
+            foreach (DictionaryEntry item in Creator.BuildingsStore)
             {
-                EntrancesQuantity = 2,
-                FlatsQuantity = 2,
-                FloorsQuantity = 2,
-                Height = 20
-            };
+                Console.WriteLine(item.Value + "\n");
+            }
 
-            Console.WriteLine(build1 + "\n");
-            Console.WriteLine(build2);
+            int id = 2;
+            bool isSuccess = Creator.Delete(id);
+            Console.WriteLine($"Deleting from table by id = {id}: {isSuccess}");
+
+            foreach (DictionaryEntry item in Creator.BuildingsStore)
+            {
+                Console.WriteLine(item.Value + "\n");
+            }
         }
     }
 }
