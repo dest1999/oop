@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fractions", "Fractions\Fractions.csproj", "{0A5CA3C8-38B8-4B0B-B116-84D2C74CF67C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fractions", "Fractions\Fractions.csproj", "{0A5CA3C8-38B8-4B0B-B116-84D2C74CF67C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionsTest", "FractionsTest\FractionsTest.csproj", "{1B74EC12-2A14-4186-B83C-2473ED0AC997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexNumbers", "ComplexNumbers\ComplexNumbers.csproj", "{259E5E41-4FC9-493D-93C7-CE10D5D535E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0A5CA3C8-38B8-4B0B-B116-84D2C74CF67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A5CA3C8-38B8-4B0B-B116-84D2C74CF67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A5CA3C8-38B8-4B0B-B116-84D2C74CF67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B74EC12-2A14-4186-B83C-2473ED0AC997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B74EC12-2A14-4186-B83C-2473ED0AC997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B74EC12-2A14-4186-B83C-2473ED0AC997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B74EC12-2A14-4186-B83C-2473ED0AC997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{259E5E41-4FC9-493D-93C7-CE10D5D535E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259E5E41-4FC9-493D-93C7-CE10D5D535E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259E5E41-4FC9-493D-93C7-CE10D5D535E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259E5E41-4FC9-493D-93C7-CE10D5D535E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
