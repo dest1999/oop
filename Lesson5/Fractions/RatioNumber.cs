@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 //Переопределить метод ToString() для вывода дроби. Определить операторы преобразования типов между типом дробь, float, int. Определить операторы *, /, %.
 namespace Fractions
 {
-    internal class RatioNumber
+    public class RatioNumber
     {
         private int numerator; //числитель
         private int denominator; //знаменатель
@@ -370,7 +370,7 @@ namespace Fractions
                 {
                     ratio.numerator /= simpleNumbers[i];
                     ratio.denominator /= simpleNumbers[i];
-                    i = 0;
+                    i = -1;
                 }
             }
         }
