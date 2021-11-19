@@ -18,7 +18,7 @@ namespace FigureProject
             circle.Visible(true);
             circle.Draw();
 
-            Rectangle rectangle = new(9, 21, 9, 4);
+            Rectangle rectangle = new(8, 21, 9, 4);
             rectangle.Visible(true);
             rectangle.SetColorTo(ConsoleColor.Gray);
             rectangle.Draw();
